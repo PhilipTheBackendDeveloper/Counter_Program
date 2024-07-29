@@ -1,0 +1,30 @@
+body {
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+ font-size: 2em;
+ background-color: rgb(254, 164, 48);
+} 
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#btnContainer{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(23, 23, 23);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+
+}.buttons:hover{
+    background-color:gray;
+
+}.buttons:active{
+    background-color: black;
+    opacity: 0.2px;
+}
